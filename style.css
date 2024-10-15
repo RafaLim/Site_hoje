@@ -1,5 +1,6 @@
   body {
     color: #526066;
+    background-color: #f3eea7;
   }
   
   h2,
@@ -79,6 +80,7 @@
     border: 1px solid #ddd;
     margin: 0 0.5em 2em;
     padding: 0 0 3em;
+    background-color: white;
   }
   
 
@@ -90,7 +92,10 @@
     background: #2c4985;
   }
   
-
+  .tool-table .pacotes {
+  background: #60a4e4;
+  color: #fff;
+}
   .tool-table-header {
     background: #000000;
     color: #fff;
@@ -165,6 +170,9 @@
     color: #ddd;
   }
   
+  .ranking {
+    position: fixed; z-index: 50; right: 0; bottom: 0; width: 100%; max-width: 420px; height: 94vh;
+  }
 
   @media (min-width: 767px) {
     .banner-head {

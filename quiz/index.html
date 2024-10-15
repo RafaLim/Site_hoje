@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Gestão de Tempo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz-container">
+        <div id="start-screen">
+            <h1>Bem-vindo ao Quiz de Gestão de Tempo!</h1>
+            <label for="username">Insira seu nome:</label>
+            <input type="text" id="username" placeholder="Seu nome" required>
+            <button onclick="startQuiz()">Começar</button>
+        </div>
+        
+        <div id="question-screen" class="hidden">
+            <h2 id="username-display"></h2>
+            <p>Pontuação: <span id="score">0</span></p>
+            <div id="question-container"></div>
+            <button onclick="nextQuestion()">Avançar</button>
+        </div>
+
+        <div id="end-screen" class="hidden">
+            <h1>Quiz Finalizado!</h1>
+            <p>Obrigado por participar, <span id="final-username"></span>!</p>
+            <p>Sua pontuação final é: <span id="final-score"></span></p>
+            <button onclick="restartQuiz()">Recomeçar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
