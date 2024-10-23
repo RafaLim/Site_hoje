@@ -1,0 +1,32 @@
+.tool-table .prata{
+    background-color: #798389;
+}
+
+.tool-table .ouro{
+    background-color: #754f22;
+}
+
+.tool-table .diamante{
+    background-color: #4462ac
+}
+
+.promocoes{
+    display: flex; flex-direction: column; align-items: center;
+}
+
+.prata img{
+    width: 150px; height: 150px; margin: 0; padding: 0;
+}
+
+.ouro img{
+    width: 150px; height: 150px;
+}
+
+.diamante img{
+    width: 150px; height: 150px;
+}
+
+
+.container{
+    width: 300px;
+}
